@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_584c35f5627983703df78b43f567a367 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_584c35f5627983703df78b43f567a367" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_584c35f5627983703df78b43f567a367 = L.map(
+                "map_584c35f5627983703df78b43f567a367",
+                {
+                    center: [52.069, 19.4803],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67d55a92f01aaf538c1a51bbbfce5ec5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var marker_64d637ead350e0397e012d927321ccab = L.marker(
+                [53.4883, 15.9742],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_14708b2f6000d725b5e111a114077788 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Kr\u0105g+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eKr\u0105g\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_64d637ead350e0397e012d927321ccab.setIcon(div_icon_14708b2f6000d725b5e111a114077788);
+        
+    
+            var marker_42618a42f19d7abb0ca566785bedb49a = L.marker(
+                [50.0592, 18.9422],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_e9c605b1c87b94692d9452882c85a05c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Kobi\u00f3r+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eKobi\u00f3r\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_42618a42f19d7abb0ca566785bedb49a.setIcon(div_icon_e9c605b1c87b94692d9452882c85a05c);
+        
+    
+            var marker_34cac89c27fb68435339c841ea578b62 = L.marker(
+                [53.3662, 20.4275],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_2e8b9005da9547a17d8d5d3a34284e73 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Nidzica+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eNidzica\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_34cac89c27fb68435339c841ea578b62.setIcon(div_icon_2e8b9005da9547a17d8d5d3a34284e73);
+        
+    
+            var marker_d402ec3cde52dc2eddab7dc71a191b10 = L.marker(
+                [50.5413, 17.1553],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_544779a6355d6bad084852fc2a4c52a5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Otmuch\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eOtmuch\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_d402ec3cde52dc2eddab7dc71a191b10.setIcon(div_icon_544779a6355d6bad084852fc2a4c52a5);
+        
+    
+            var marker_c6507a3f57698a3a5b71ca1d092e9781 = L.marker(
+                [51.1279, 15.6218],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_0cbd09c68be843eedf19fcb5935766ee = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Kliczk\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eKliczk\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_c6507a3f57698a3a5b71ca1d092e9781.setIcon(div_icon_0cbd09c68be843eedf19fcb5935766ee);
+        
+    
+            var marker_3cd5ee114d7d82c5ac7d73c257694128 = L.marker(
+                [50.9329, 15.8945],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_eabb5a497d2d23cc1a912b215927d081 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Grodziec+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eGrodziec\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_3cd5ee114d7d82c5ac7d73c257694128.setIcon(div_icon_eabb5a497d2d23cc1a912b215927d081);
+        
+    
+            var marker_cf584e4cbfd0bb495bd69d40e16db3fb = L.marker(
+                [53.9316, 21.6949],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_47bb84a7dcc14ad26df6cc35295d3349 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Ryn+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eRyn\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_cf584e4cbfd0bb495bd69d40e16db3fb.setIcon(div_icon_47bb84a7dcc14ad26df6cc35295d3349);
+        
+    
+            var marker_6ca97131b89bb48b8de1c55d9bf89758 = L.marker(
+                [50.802, 20.6105],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_5be12b56c5c26533491257f43dc8e845 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Sobk\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eSobk\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_6ca97131b89bb48b8de1c55d9bf89758.setIcon(div_icon_5be12b56c5c26533491257f43dc8e845);
+        
+    
+            var marker_7db9efc4b69af2d02a2680c265577353 = L.marker(
+                [52.3118, 15.1325],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_b33c6bd092054608843182d547e22915 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=\u0141ag\u00f3w Lubuski+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003e\u0141ag\u00f3w Lubuski\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_7db9efc4b69af2d02a2680c265577353.setIcon(div_icon_b33c6bd092054608843182d547e22915);
+        
+    
+            var marker_cf09f9c24130f24d066884e1c4cb4c82 = L.marker(
+                [51.2103, 17.3838],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_ad328458ef5d633c111b0e801e32baaa = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Ole\u015bnica+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eOle\u015bnica\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_cf09f9c24130f24d066884e1c4cb4c82.setIcon(div_icon_ad328458ef5d633c111b0e801e32baaa);
+        
+    
+            var marker_7aef6362ff0bbdf6905dd26b3fb7cbde = L.marker(
+                [54.1706, 17.4919],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_7f23f64aff599d2d4025763efa65281d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Byt\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eByt\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_7aef6362ff0bbdf6905dd26b3fb7cbde.setIcon(div_icon_7f23f64aff599d2d4025763efa65281d);
+        
+    
+            var marker_102a3487abedb008e99a1b71f565c2b4 = L.marker(
+                [51.9495, 23.2029],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_9934c4bf4428fcbba3d024e9122dc578 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Jan\u00f3w Podlaski+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eJan\u00f3w Podlaski\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_102a3487abedb008e99a1b71f565c2b4.setIcon(div_icon_9934c4bf4428fcbba3d024e9122dc578);
+        
+    
+            var marker_4b9496d6aada432a11b35186e85a6e55 = L.marker(
+                [54.0376, 21.7665],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_a7f59c9435397872a7789c17da27bfed = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Gi\u017cycko+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eGi\u017cycko\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_4b9496d6aada432a11b35186e85a6e55.setIcon(div_icon_a7f59c9435397872a7789c17da27bfed);
+        
+    
+            var marker_964750bb027fe2b38d7d702dbd76c46d = L.marker(
+                [50.8647, 15.9309],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_58d5173949912879c0a559119d9416f5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Karpniki+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eKarpniki\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_964750bb027fe2b38d7d702dbd76c46d.setIcon(div_icon_58d5173949912879c0a559119d9416f5);
+        
+    
+            var marker_f75b9197bb5eabc4ebb46ad3904120f7 = L.marker(
+                [49.9771, 22.3594],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_fb3b17877e7b05e240cdbbea0b3ebfbb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Dubiecko+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eDubiecko\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_f75b9197bb5eabc4ebb46ad3904120f7.setIcon(div_icon_fb3b17877e7b05e240cdbbea0b3ebfbb);
+        
+    
+            var marker_6c57f849547a32b4b820c6022d8d9ad3 = L.marker(
+                [50.0209, 22.2308],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_4ddf5edf0a7e568e106dbbd2b8cc782c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=\u0141a\u0144cut+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003e\u0141a\u0144cut\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_6c57f849547a32b4b820c6022d8d9ad3.setIcon(div_icon_4ddf5edf0a7e568e106dbbd2b8cc782c);
+        
+    
+            var marker_657e3b3dd25d5bbbefa88d439bc457fa = L.marker(
+                [54.0395, 19.0285],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_b28dbcbd1d158afe0ba6bac6270d18e8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Malbork+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eMalbork\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_657e3b3dd25d5bbbefa88d439bc457fa.setIcon(div_icon_b28dbcbd1d158afe0ba6bac6270d18e8);
+        
+    
+            var marker_db2af661c56f27392b4d144b1929c294 = L.marker(
+                [49.4205, 20.6502],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_ebfadc673df0a283534afc12aa27d6b1 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Niedzica+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eNiedzica\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_db2af661c56f27392b4d144b1929c294.setIcon(div_icon_ebfadc673df0a283534afc12aa27d6b1);
+        
+    
+            var marker_455c6384b4d22bbcc58d17d7937a7019 = L.marker(
+                [50.4525, 19.5443],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_ae2de6b6608e0415e9f7732e59c93719 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Ogrodzie\u0144iec+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eOgrodzie\u0144iec\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_455c6384b4d22bbcc58d17d7937a7019.setIcon(div_icon_ae2de6b6608e0415e9f7732e59c93719);
+        
+    
+            var marker_f31005eec284ea1bb2e9a1991af1c9ca = L.marker(
+                [50.0343, 19.2104],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_a27bf1ee37b38395dc52d850db6b386d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=O\u015bwi\u0119cim+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eO\u015bwi\u0119cim\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_f31005eec284ea1bb2e9a1991af1c9ca.setIcon(div_icon_a27bf1ee37b38395dc52d850db6b386d);
+        
+    
+            var marker_178af675c737fec87a787f30e0a243f7 = L.marker(
+                [50.2498, 19.8062],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_28648a463621349b2a4ff003aec0274d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Pieskowa Ska\u0142a+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003ePieskowa Ska\u0142a\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_178af675c737fec87a787f30e0a243f7.setIcon(div_icon_28648a463621349b2a4ff003aec0274d);
+        
+    
+            var marker_425c452b3fdaf9d54a8d21fea4918b95 = L.marker(
+                [49.5556, 22.213],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_e4d3fb0e42153dedac69f38a4b2c29fd = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Sanok+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eSanok\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_425c452b3fdaf9d54a8d21fea4918b95.setIcon(div_icon_e4d3fb0e42153dedac69f38a4b2c29fd);
+        
+    
+            var marker_739755385897ee4909467f26d01d7e40 = L.marker(
+                [51.1367, 19.944],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_26f7241e6df8f20dfadbc047eeea3395 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Sork\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eSork\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_739755385897ee4909467f26d01d7e40.setIcon(div_icon_26f7241e6df8f20dfadbc047eeea3395);
+        
+    
+            var marker_f1e10d4e85a9c7fbbcb0337c6179de85 = L.marker(
+                [50.7915, 20.4921],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_14763183e1cb9676d31e19cd7ca32f40 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Wi\u015blica+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eWi\u015blica\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_f1e10d4e85a9c7fbbcb0337c6179de85.setIcon(div_icon_14763183e1cb9676d31e19cd7ca32f40);
+        
+    
+            var marker_445a4aaebf01ccbb46ccd1dedf39e12d = L.marker(
+                [50.5645, 21.5509],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_363fff8cb9d73a31778cda1e3a49ee5d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Baran\u00f3w Sandomierski+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eBaran\u00f3w Sandomierski\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_445a4aaebf01ccbb46ccd1dedf39e12d.setIcon(div_icon_363fff8cb9d73a31778cda1e3a49ee5d);
+        
+    
+            var marker_4f6ed6b23cad737dce294427c1ac0f84 = L.marker(
+                [50.3262, 19.2362],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_846608bcbd22a44bbfa8828904d84d89 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=B\u0119dzin+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eB\u0119dzin\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_4f6ed6b23cad737dce294427c1ac0f84.setIcon(div_icon_846608bcbd22a44bbfa8828904d84d89);
+        
+    
+            var marker_42241dcd6cee05fb8c6ae88d1cdd78f8 = L.marker(
+                [49.4339, 20.3236],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_9ac79cdac34b1567acff3ffa8299a1ec = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Czorsztyn+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eCzorsztyn\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_42241dcd6cee05fb8c6ae88d1cdd78f8.setIcon(div_icon_9ac79cdac34b1567acff3ffa8299a1ec);
+        
+    
+            var marker_b5fd5c8beeccd68fcde3c151bcbd409c = L.marker(
+                [49.9034, 21.8387],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_14947289342ca5e1ec2590f40af1a9ab = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=D\u017awinogr\u00f3d+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eD\u017awinogr\u00f3d\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_b5fd5c8beeccd68fcde3c151bcbd409c.setIcon(div_icon_14947289342ca5e1ec2590f40af1a9ab);
+        
+    
+            var marker_369b118eacff800c1611870190780177 = L.marker(
+                [53.1045, 18.8829],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_b8b9a12fb3ec418ff62a4b695471a0fb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Golub-Dobrzy\u0144+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eGolub-Dobrzy\u0144\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_369b118eacff800c1611870190780177.setIcon(div_icon_b8b9a12fb3ec418ff62a4b695471a0fb);
+        
+    
+            var marker_94a4d6ad96143829fa809e32f9f82428 = L.marker(
+                [50.9292, 16.2906],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_b8d10d4ff485f1cf0c946c5ff10c1b63 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Bolk\u00f3w+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eBolk\u00f3w\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_94a4d6ad96143829fa809e32f9f82428.setIcon(div_icon_b8d10d4ff485f1cf0c946c5ff10c1b63);
+        
+    
+            var marker_0b92404ee498d8b958c9e4bfb96afd75 = L.marker(
+                [52.2431, 17.0894],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_ec6a9e1baff6e8eb1fa4da21a02d0937 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=K\u00f3rnik+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eK\u00f3rnik\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_0b92404ee498d8b958c9e4bfb96afd75.setIcon(div_icon_ec6a9e1baff6e8eb1fa4da21a02d0937);
+        
+    
+            var marker_ab15da0746edd4cffee7505f42d9bd47 = L.marker(
+                [50.2164, 19.7868],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_f9f6e4002bbe9e838b4d627199982fcb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Ojcow+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eOjcow\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_ab15da0746edd4cffee7505f42d9bd47.setIcon(div_icon_f9f6e4002bbe9e838b4d627199982fcb);
+        
+    
+            var marker_c64db7ab8a8827840c64c85c11723e0f = L.marker(
+                [52.1093, 21.261],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_b679e7a90ffc4cafe7c7fa85ced08d77 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Otwock+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eOtwock\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_c64db7ab8a8827840c64c85c11723e0f.setIcon(div_icon_b679e7a90ffc4cafe7c7fa85ced08d77);
+        
+    
+            var marker_87d67fa532392f04870a03aa06606f14 = L.marker(
+                [49.9292, 20.4128],
+                {}
+            ).addTo(map_584c35f5627983703df78b43f567a367);
+        
+    
+            var div_icon_0956d502f8921b9725a7a9307fc1e223 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"width: 100px; border: 2px solid white; padding: 2px 5px; border-radius: 5px; background-color: rgba(0, 0, 0, 0.6); display: flex; align-items: center; justify-content: center;\"\u003e\n        \u003ca href=\"https://www.google.com/search?q=Wi\u015bnicz+zamek+nocleg\" target=\"_blank\" style=\"color: white; text-decoration: none;\"\u003eWi\u015bnicz\u003c/a\u003e\n    \u003c/div\u003e\n    ", "iconAnchor": [50, 18], "iconSize": [150, 36]});
+            marker_87d67fa532392f04870a03aa06606f14.setIcon(div_icon_0956d502f8921b9725a7a9307fc1e223);
+        
+</script>
+</html>
